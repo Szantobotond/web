@@ -55,11 +55,6 @@ footer{
    text-align: center;
 }
 
-#img1{
-    text-align: center;
-    border: 3px;
-}
-
 a:link{
     color: aqua;
     text-decoration: none;
@@ -81,6 +76,6 @@ a:active{
 }
 
 hr{
-    color: blue;
+    background-color: blue;
     width: 1920px;
 }
