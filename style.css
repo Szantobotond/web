@@ -79,3 +79,7 @@ hr{
     background-color: blue;
     width: 1500px;
 }
+
+#img1{
+    vertical-align: middle;
+}
