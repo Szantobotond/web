@@ -55,22 +55,22 @@ footer{
    text-align: center;
 }
 
-a:link{
+#a1:link{
     color: aqua;
     text-decoration: none;
 }
 
-a:visited{
+#a1:visited{
     color: aqua;
     text-decoration: none;
 }
 
-a:hover{
+#a1:hover{
     color: aqua;
     text-decoration: none;
 }
 
-a:active{
+#a1:active{
     color: aqua;
     text-decoration: none;
 }
@@ -78,8 +78,4 @@ a:active{
 hr{
     background-color: blue;
     width: 1500px;
-}
-
-.nav1{
-    color: black;
 }
