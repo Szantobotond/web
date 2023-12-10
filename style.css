@@ -54,3 +54,33 @@ table{
 footer{
    text-align: center;
 }
+
+.img1{
+    text-align: center;
+    border: 3px;
+}
+
+a:link{
+    color: aqua;
+    text-decoration: none;
+}
+
+a:visited{
+    color: aqua;
+    text-decoration: none;
+}
+
+a:hover{
+    color: aqua;
+    text-decoration: none;
+}
+
+a:active{
+    color: aqua;
+    text-decoration: none;
+}
+
+hr{
+    color: blue;
+    width: 1920px;
+}
