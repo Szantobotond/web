@@ -56,26 +56,30 @@ footer{
 }
 
 a:link{
-    color: black
+    color: aqua;
     text-decoration: none;
 }
 
 a:visited{
-    color: black
+    color: aqua;
     text-decoration: none;
 }
 
 a:hover{
-    color: black
+    color: aqua;
     text-decoration: none;
 }
 
 a:active{
-    color: black
+    color: aqua;
     text-decoration: none;
 }
 
 hr{
     background-color: blue;
     width: 1500px;
+}
+
+.nav1{
+    color: black;
 }
