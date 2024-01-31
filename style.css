@@ -82,31 +82,33 @@ hr{
 }
 
 #kepek4:hover{
-    border: 5px aqua solid;
+    box-shadow: 0 12px 16px aqua, 0 17px 50px 0 aqua;
     background-color: aqua;
 }
 
 #kepek1:hover{
-    border: 5px purple solid;
+    box-shadow: 0 12px 16px purple, 0 17px 50px 0 purple;
     background-color: purple;
 }
 
 #kepek2:hover{
-    border: 5px rgb(255, 182, 46) solid;
+    box-shadow: 0 12px 16px rgb(255, 182, 46), 0 17px 50px 0 rgb(255, 182, 46);
     background-color: rgb(255, 182, 46)
 }
 
 #kepek3:hover{
-    border: 5px rgb(125, 81, 0) solid;
+    box-shadow: 0 12px 16px rgb(125, 81, 0), 0 17px 50px 0 rgb(125, 81, 0);
     background-color: rgb(125, 81, 0);
 }
 
 #kepek1{
     padding: 15px;
+    border: 5px purple solid;
     width: 250px;
 }
 
 #kepek2{
+    border: 5px rgb(255, 182, 46) solid;
     padding: 15px;
     width: 250px;
 }
@@ -114,9 +116,11 @@ hr{
 #kepek3{
     padding: 15px;
     width: 250px;
+    border: 5px rgb(125, 81, 0) solid;
 }
 
 #kepek4{
     padding: 15px;
     width: 250px;
+    border: 5px aqua solid;
 }
