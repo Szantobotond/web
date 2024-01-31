@@ -81,25 +81,42 @@ hr{
     width: 1500px;
 }
 
-#kepek4{
-    width: 250px;
+#kepek4:hover{
     border: 5px aqua solid;
-    padding: 15px;
+    background-color: aqua;
+}
+
+#kepek1:hover{
+    border: 5px purple solid;
+    background-color: purple;
+}
+
+#kepek2:hover{
+    border: 5px rgb(255, 182, 46) solid;
+    background-color: rgb(255, 182, 46)
+}
+
+#kepek3:hover{
+    border: 5px rgb(125, 81, 0) solid;
+    background-color: rgb(125, 81, 0);
 }
 
 #kepek1{
-    width: 250px;
-    border: 5px purple solid;
     padding: 15px;
+    width: 250px;
 }
 
 #kepek2{
-    width: 250px;
-    border: 5px rgb(255, 182, 46) solid;
     padding: 15px;
+    width: 250px;
 }
 
 #kepek3{
+    padding: 15px;
     width: 250px;
-    border: 5px rgb(125, 81, 0) solid;
+}
+
+#kepek4{
+    padding: 15px;
+    width: 250px;
 }
