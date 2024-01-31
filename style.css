@@ -82,5 +82,6 @@ hr{
 }
 
 #evszakok{
-    border: 3cm;
+    border: 5px;
+    width: 300px;
 }
