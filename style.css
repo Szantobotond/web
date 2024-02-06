@@ -81,6 +81,10 @@ hr{
     width: 1500px;
 }
 
+#evszakok{
+    margin: 0 0 0 50px;
+}
+
 #kepek4:hover{
     box-shadow: 0 12px 16px aqua, 0 17px 50px 0 aqua;
     background-color: aqua;
