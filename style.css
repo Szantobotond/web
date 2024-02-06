@@ -101,6 +101,41 @@ hr{
     background-color: rgb(125, 81, 0);
 }
 
+#kepek1{
+    padding: 15px;
+    width: 250px;
+    margin: 0 0 0 50px;
+    display: block;
+    transition: 3s;
+    border: 5px purple solid;
+}
+
+#kepek2{
+    padding: 15px;
+    width: 250px;
+    margin: 0 0 0 50px;
+    display: block;
+    transition: 3s;
+    border: 5px rgb(255, 182, 46) solid;
+}
+
+#kepek3{
+    border: 5px rgb(125, 81, 0) solid; 
+    padding: 15px;
+    width: 250px;
+    margin: 0 0 0 50px;
+    display: block;
+    transition: 3s;
+}
+
+#kepek4{
+    border: 5px aqua solid; 
+    padding: 15px;
+    width: 250px;
+    margin: 0 0 0 50px;
+    display: block;
+    transition: 3s;
+}
 
 
 #divevszakok{
