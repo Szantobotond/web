@@ -81,10 +81,6 @@ hr{
     width: 1500px;
 }
 
-#evszakok{
-    margin: 0 0 0 50px;
-}
-
 #kepek4:hover{
     box-shadow: 0 12px 16px aqua, 0 17px 50px 0 aqua;
     background-color: aqua;
@@ -109,22 +105,26 @@ hr{
     padding: 15px;
     border: 5px purple solid;
     width: 250px;
+    margin: 0 0 0 50px;
 }
 
 #kepek2{
     border: 5px rgb(255, 182, 46) solid;
     padding: 15px;
     width: 250px;
+    margin: 0 0 0 50px;
 }
 
 #kepek3{
     padding: 15px;
     width: 250px;
     border: 5px rgb(125, 81, 0) solid;
+    margin: 0 0 0 50px;
 }
 
 #kepek4{
     padding: 15px;
     width: 250px;
     border: 5px aqua solid;
+    margin: 0 0 0 50px;
 }
