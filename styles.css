@@ -1,0 +1,12 @@
+img{
+    width: 500px;
+    height: 500px;
+    transition: 0.3s;
+    object-fit: cover;
+}
+img:hover{
+    cursor: pointer;
+}
+img:active{
+    transform: scale(0.8);
+}
