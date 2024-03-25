@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <img id="image1" src="./Ősz2.jpg" alt="" onclick="changeImage()">
+    <img id="image1" src="img/Ősz2.jpg" alt="" onclick="changeImage()">
     <script>
         function changeImage(){
             let displayImage = document.getElementById ('image1')
-            if(displayImage.src.match('./Ősz2.jpg')){
-                displayImage.src = './tél.jpg'
+            if(displayImage.src.match('Ősz2.jpg')){
+                displayImage.src = 'tél.jpg'
             } else {
-                displayImage.src = './Ősz2.jpg'
+                displayImage.src = 'Ősz2.jpg'
             }
         }
     </script>
