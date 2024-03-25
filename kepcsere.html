@@ -1,23 +1,48 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Képcsere</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
-    <img id="image1" src="img/Ősz2.jpg" alt="" onclick="changeImage()">
+    <nav>
+
+        <button><a href="index.html">Főoldal</a></button>
+
+        <button><a href="keplink.html">Képlink feladat</a></button>
+      
+        <button><a href="listak.html">Listák</a></button>
+        
+        <button><a href="tablazat.html">Órarend</a></button>
+        
+        <button><a href="urlap.html">Űrlap</a></button>
+        
+        <button><a href="evszak.html">Évszakok</a></button>
+
+        <button><a href="kepcsere.html">Képcsere</a></button>
+        
+    </nav>
+
+    <img id="image-1" src="img/Ősz2.jpg" onclick="changeImage(1, 2)" />
+    <img id="image-2" src="img/tél.jpg" onclick="changeImage(2, 1)" style="display:none;" />
+
     <script>
-        function changeImage(){
-            let displayImage = document.getElementById ('image1')
-            if(displayImage.src.match('img/Ősz2.jpg')){
-                displayImage.src = 'img/tél.jpg'
-            } else {
-                displayImage.src = 'img/Ősz2.jpg'
-            }
+        function changeImage(id1, id2) {
+          var img1 = document.getElementById("image-" + id1);
+          var img2 = document.getElementById("image-" + id2);
+          if (img1.style.display == "none") {
+            img1.style.display = "block";
+            img2.style.display = "none";
+          } else {
+            img1.style.display = "none";
+            img2.style.display = "block";
+          }
         }
-    </script>
+      </script>
+
+
 </body>
 </html>
