@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Kávézó</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="stylesss.css">
+    <style>
+        
+    </style>
+</head>
+
+<body>
+    <nav>
+
+        <button><a href="index.html">Főoldal</a></button>
+
+        <button><a href="keplink.html">Képlink feladat</a></button>
+      
+        <button><a href="listak.html">Listák</a></button>
+        
+        <button><a href="tablazat.html">Órarend</a></button>
+        
+        <button><a href="urlap.html">Űrlap</a></button>
+        
+        <button><a href="evszak.html">Évszakok</a></button>
+
+        <button><a href="kepcsere.html">Képcsere</a></button>
+
+        <button><a href="kavezo.html">Kávézó</a></button>
+        
+    </nav>
+
+    <header class=" text-light text-center py-5">
+        <h1>Happy Kávézó</h1>
+        <p>"A kávé folyékony kreativitás"</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Főoldal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Étlap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Kapcsolat</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="main-content" class="container py-5">
+        <section id="home" class="text-center">
+            <img src="img/latte-art-5712779_1280.jpg" class="img-fluid rounded" alt="Étterem vagy kávézó" style="width: 60%;">
+            <h2>Üdvözlünk a Happy kávézó oldalán!</h2>
+            <p>Ha kávéra vágysz a legjobb helyen jársz!</p>
+        </section>
+
+        <section id="menu" class="mt-5">
+            <h2 class="text-center">Étlap</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card bg-warning">
+                        <div class="card-body">
+                            <h5 class="card-title">ESPRESSO</h5>
+                            <p class="card-text">Maga az “alapkávé”, azaz a kis fekete. 30-35 ml ital, melynek állandó kísérője a tetején képződő crema.</p>
+                            <p class="card-text">Ár: 550Ft</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card bg-warning">
+                        <div class="card-body">
+                            <h5 class="card-title">CAPPUCCINO</h5>
+                            <p class="card-text">Egy espresso és 100-120 ml felhabosított tej házassága.</p>
+                            <p class="card-text">Ár: 650Ft</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card bg-warning">
+                        <div class="card-body">
+                            <h5 class="card-title">CAFFÉ LATTE</h5>
+                            <p class="card-text">Klasszikus tejeskávé, mely espresso és tej egyvelege, vékony, krémes tejhabbal a tetején.</p>
+                            <p class="card-text">Ár: 700Ft</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card bg-warning">
+                        <div class="card-body">
+                            <h5 class="card-title">JEGESKÁVÉ FAGYIVAL</h5>
+                            <p class="card-text">A klasszikus jegeskávét vanília fagyival és tejszínhabbal tesszük még élvezetesebbé.</p>
+                            <p class="card-text">Ár: 1099Ft</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card bg-warning">
+                        <div class="card-body">
+                            <h5 class="card-title">LATTE MACCHIATO</h5>
+                            <p class="card-text">A név olaszul foltost tejet jelent. Alul forró tej, felette egy espresso, majd lágy tejhab triója rétegezve.</p>
+                            <p class="card-text">Ár: 749Ft</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card bg-warning">
+                        <div class="card-body">
+                            <h5 class="card-title">MACI KÁVÉ</h5>
+                            <p class="card-text">Kellemes aromájú, koffeinmentes ital, mely cikóriából és tejből készül és mai napig a gyermekek kedvence.</p>
+                            <p class="card-text">Ár: 400Ft</p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+
+        <section id="contact" class="mt-5">
+            <h2 class="text-center">Kapcsolat</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Név</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-mail cím</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Üzenet</label>
+                    <textarea class="form-control" id="message" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Küldés</button>
+            </form>
+        </section>
+    </div>
+
+    <footer class="bg-dark text-light text-center py-3">
+        <p>© 2024 Happy Kávézó</p>
+        <p>Email: happykavezo@gmail.com</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
